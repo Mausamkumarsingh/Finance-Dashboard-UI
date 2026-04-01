@@ -1,46 +1,91 @@
-# Finance Dashboard
+# 💰 Finance Dashboard
 
-A clean, modern React-based finance dashboard showcasing income, expenses, and transaction management. Built for a technical assignment.
+A clean and interactive finance dashboard built using React.
+This project was developed as a frontend assignment to demonstrate UI design, state management, and data handling.
 
-## Features
+---
 
-- **Dashboard Overview**: Summary cards displaying total balance, income, and expenses. Includes a dynamic pie chart for category spending and a line chart for balance trends over time.
-- **Transaction Management**: View, filter, search, and manage a list of financial transactions. Includes pagination/limit logic for the dashboard view.
-- **Role-Based Access Control**: Simulate `Admin` and `Viewer` roles. Admins can add, edit, or delete transactions, while Viewers can only consume data.
-- **Smart Insights**: Automatically highlights the highest spending category, provides immediate savings observations, flags largest expenses, and gives monthly comparison percent changes.
-- **Persistent Data**: Changes made are temporarily persisted in `localStorage`. 
+## 🚀 Features
 
-### 🔥 Added Optional Enhancements
-- **Dark Mode Support**: Context state handles saving theme preference across reloads. Sleek toggle available in the header.
-- **Export Functionality**: A "Download CSV" button generates and downloads a `.csv` format payload of currently filtered transactions safely.
-- **Edit Capabilities**: Admins can not just add/delete, but also modify existing payload.
-- **UX Polish**: Graceful state boundaries, hover micro-interactions, responsive flex/grid wrappers everywhere.
+### 📊 Dashboard Overview
 
-## Tech Stack
+* Summary cards for Total Balance, Income, and Expenses
+* Line chart to visualize income vs expenses over time
+* Pie chart showing spending distribution by category
 
-- **React 18** (Context API for State Management)
-- **Vite** (Build Tool)
-- **Recharts** (Data Visualization)
-- **Lucide React** (Open-source Iconography)
-- **Vanilla CSS** (Variables, Modern Reset, Custom Theming)
+### 💳 Transactions
 
-## Setup Instructions
+* View all transactions with date, category, type, and amount
+* Search and filter transactions easily
+* Admin can add, edit, and delete transactions
 
-1. **Clone or Extract the folder**
-2. **Install Dependencies**
-   ```bash
-   npm install
-   ```
-3. **Start the Development Server**
-   ```bash
-   npm run dev
-   ```
-4. **View in Browser**
-   Open the browser link (usually `http://localhost:5173`) displayed in your terminal.
+### 👤 Role-Based UI
 
-## Explanation of Technical Choices
+* Switch between **Viewer** and **Admin** roles
+* Viewer → read-only access
+* Admin → full control over transactions
 
-- **State Management**: Opted for **React Context API** instead of heavier libraries like Redux to maintain a practical, assignment-appropriate level of complexity. 
-- **Styling**: Went with **Vanilla CSS variables** instead of Tailwind CSS to prove core stylistic capability and to keep the DOM tree clean while maintaining a very modern, premium look.
-- **Components**: Components are scoped logically (`DashboardOverview`, `Insights`, `Sidebar`, `TransactionList`), keeping file sizes small and readable without excessive atomization.
-- **Role Simulation**: Added an easy dropdown in the Header to demonstrate how UI dynamically adapts to permission levels.
+### 💡 Insights
+
+* Highlights highest spending category
+* Shows largest expense
+* Displays simple monthly comparison
+* Provides quick financial observations
+
+### ⚙️ Additional Features
+
+* Dark mode toggle 🌙
+* Data persistence using localStorage
+* Export transactions as CSV
+* Responsive design for different screen sizes
+
+---
+
+## 🛠️ Tech Stack
+
+* React (with Context API)
+* Vite
+* Recharts
+* Lucide React (icons)
+* CSS (custom styling with variables)
+
+---
+
+## 📸 Screenshots
+
+(Add your project screenshot here)
+
+---
+
+## 🌐 Live Demo
+
+https://finance-dashboard-ui-app.vercel.app/
+
+---
+
+## ⚙️ Setup Instructions
+
+```bash
+git clone https://github.com/Mausamkumarsingh/Finance-Dashboard-UI.git
+cd Finance-Dashboard-UI
+npm install
+npm run dev
+```
+
+---
+
+## 🧠 Approach
+
+This project focuses on building a simple yet effective dashboard interface without overcomplicating the architecture.
+
+* Used **Context API** for lightweight state management
+* Kept components modular and readable
+* Focused on clean UI and smooth user experience
+* Simulated role-based behavior on frontend
+
+---
+
+## 📌 Note
+
+This is a frontend-only project built for evaluation purposes.
+All data is handled using mock data and local storage.
