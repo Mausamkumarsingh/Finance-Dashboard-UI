@@ -57,7 +57,7 @@ This project was developed as a frontend assignment to demonstrate UI design, st
 ![Finance Dashboard](./dashboard.png)
 
 ### 💳 Transactions View
-![Transactions](./transactions.png)
+![Transactions](./transection.png)
 
 
 ---
