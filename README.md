@@ -53,7 +53,9 @@ This project was developed as a frontend assignment to demonstrate UI design, st
 
 ## 📸 Screenshots
 
-(Add your project screenshot here)
+
+![Finance Dashboard](./dashboard.png)
+
 
 ---
 
